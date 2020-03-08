@@ -41,7 +41,7 @@ Lo anterior quiere decir que, por cada voto que reciba un candidato influenciado
 televisión, su costo de campaña se incrementara en $1.000, del mismo modo por cada voto
 influenciado por publicidad en radio, su costo de campaña se incrementara en $500, y finalmente,
 por cada voto influenciado por publicidad en Internet, su costo de campaña se incrementará en
-$100.<br
+$100.<br>
 Se desea que la aplicación permita:<br>
 1. Visualizar la información de un candidato.<br> 2. Votar por un candidato.<br> 3. Calcular el número total
 de votos. <br>4. Calcular el costo promedio por campaña.<br> 5. Visualizar estadísticas por rango de edad y

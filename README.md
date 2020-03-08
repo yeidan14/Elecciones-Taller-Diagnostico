@@ -73,16 +73,26 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Se desea crear una aplicación que permita manejar información y estadísticas sobre unas elecciones.
+Esta permite manejar la información de 3 candidatos.
+De cada candidato se conoce: El nombre completo, La edad, El partido político, El costo de la
+campaña, La cantidad de votos obtenidos, El porcentaje de votos que tiene el candidato (con
+respecto al total de votos).
+Para calcular el costo de la campaña, se tiene en cuenta el medio de comunicación (Televisión, radio
+o Internet) que influenció a cada votante. De esta manera, para retornar el retorno de la inversión
+realizada en publicidad, se incrementa el costo de la campaña usando los siguientes valores:
+• Voto influenciado por publicidad en Televisión: $1.000.
+• Voto influenciado por publicidad en Radio: $500
+• Voto influenciado por publicidad en Internet: $100
+Lo anterior quiere decir que, por cada voto que reciba un candidato influenciado por publicidad en
+televisión, su costo de campaña se incrementara en $1.000, del mismo modo por cada voto
+influenciado por publicidad en radio, su costo de campaña se incrementara en $500, y finalmente,
+por cada voto influenciado por publicidad en Internet, su costo de campaña se incrementará en
+$100.
+Se desea que la aplicación permita:
+1. Visualizar la información de un candidato. 2. Votar por un candidato. 3. Calcular el número total
+de votos. 4. Calcular el costo promedio por campaña. 5. Visualizar estadísticas por rango de edad y
+género. 6. Vaciar la urna
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
